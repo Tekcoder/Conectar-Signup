@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Conectar HomePage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./styles/index.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="navigation__wrapper-a">
+          <div><a href="#" id="header-title">Conectar</a></div>
+          <div class="container">
+            <div class="nav-link together"><a href="./Home.html">Home</a></div>
+            <div class="nav-link together">
+              <a href="./About.html">About</a>
+            </div>
+            <div class="nav-link together">
+              <a href="./Pricing.html">Pricing</a>
+            </div>
+            <div class="nav-link together-2" id="english">
+              <a href="./English.html">English</a>
+            </div>
+            <div class="nav-link together-2" id="Russian">
+              <a href="./Russian.html">Pусский</a>
+            </div>
+            <button class="nav-link" id="nav-bar-button">classroom</button>
+          </div>
+        </div>
+        <div class="navigation__wrapper-b">
+          <div class="container">
+            <div><a href="../../index.html" id="header-title">Conectar</a></div>
+            <div class="nav-link dropdown">
+              <button class="dropbtn">&#9776;</button>
+              <div class="dropdown-content">
+                <div class="nav-link"><a href="./Home.html">Home</a></div>
+                <div class="nav-link"><a href="./About.html">About</a></div>
+                <div class="nav-link"><a href="./Pricing.html">Pricing</a></div>
+                <div class="nav-link">
+                  <a href="./English.html">English</a>
+                </div>
+                <div class="nav-link"><a href="./Russian.html">Pусский</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <div class="top-section">
+        <h5 id="profile">edit profile</h5>
+        <hr />
+        <div class="body-content">
+          <div class="border-container">
+            <i class="fas fa-pencil-alt" id="icon"></i>
+          </div>
+          <div class="border-container-2">
+            <i class="fas fa-pencil-alt" id="icon"></i>
+          </div>
+
+          <form action="" class="form-style">
+            <ul>
+              <li>
+                <input
+                  type="text"
+                  placeholder="First Name"
+                  id="firstname"
+                  class="field-style field-split align-left"
+                />
+                <input
+                  type="text"
+                  placeholder="Last Name"
+                  class="field-style field-split align-right"
+                />
+              </li>
+              <li>
+                <input
+                  type="text"
+                  placeholder="@Username"
+                  class="field-style field-split align-left"
+                />
+                <input
+                  type="text"
+                  placeholder="Email Address"
+                  class="field-style field-split align-right"
+                />
+              </li>
+              <li>
+                <input
+                  type="text"
+                  placeholder="Phone Number"
+                  class="field-style field-split align-left"
+                />
+                <input
+                  type="text"
+                  placeholder="Nationality"
+                  id="nationality"
+                  class="field-style field-split align-right"
+                />
+              </li>
+              <li>
+                <select
+                  name="Country Of Residence"
+                  class="field-style field-split align-left"
+                >
+                  <option value="Country Of Residence" selected="selected"
+                    >Country Of Residence</option
+                  >
+                  <option value="UNITED KINGDOM">UNITED KINGDOM</option>
+                  <option value="UNITED STATES">UNITED STATES</option>
+                  <option value="UZBESKIZTAN">UZBESKIZTAN</option>
+                </select>
+
+                <input
+                  type="text"
+                  placeholder="State/City Of Residence"
+                  class="field-style field-split align-right"
+                />
+              </li>
+              <li>
+                <input
+                  type="text"
+                  placeholder="Timezone of Location"
+                  class="field-style field-split align-left"
+                />
+              </li>
+              <input type="button" value="save changes" class="submit-button" />
+            </ul>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
